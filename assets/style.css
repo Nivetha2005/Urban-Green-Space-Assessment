@@ -1,0 +1,300 @@
+/* === FILE: assets/style.css === */
+
+/* Main container styling */
+.main {
+    padding: 0rem 1rem;
+}
+
+/* Header styling */
+h1 {
+    color: #2E8B57;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    border-bottom: 3px solid #2E8B57;
+    display: inline-block;
+    padding-bottom: 0.3rem;
+}
+
+h2, h3 {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+/* Metric card styling */
+.metric-card {
+    background: linear-gradient(135deg, #f5f9f7 0%, #e8f3ef 100%);
+    border-radius: 15px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    border-left: 4px solid #2E8B57;
+    transition: transform 0.2s ease;
+}
+
+.metric-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+}
+
+.metric-value {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2E8B57;
+}
+
+.metric-label {
+    font-size: 0.85rem;
+    color: #666;
+    margin-top: 0.3rem;
+}
+
+/* Button styling */
+.stButton > button {
+    background: linear-gradient(135deg, #2E8B57 0%, #236B43 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem 1.5rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.stButton > button:hover {
+    background: linear-gradient(135deg, #236B43 0%, #1a5535 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.stButton > button:active {
+    transform: translateY(0px);
+}
+
+/* File uploader styling */
+.stFileUploader {
+    border: 2px dashed #2E8B57;
+    border-radius: 10px;
+    padding: 1rem;
+    background: #f9f9f9;
+}
+
+.stFileUploader:hover {
+    background: #f0f9f5;
+    border-color: #236B43;
+}
+
+/* Tab styling */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 2rem;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+
+.stTabs [data-baseweb="tab"] {
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    color: #555;
+}
+
+.stTabs [aria-selected="true"] {
+    background: linear-gradient(135deg, #2E8B57 0%, #236B43 100%);
+    color: white;
+}
+
+/* Info box styling */
+.info-box {
+    background: #e8f4fd;
+    border-left: 4px solid #2196F3;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+}
+
+.warning-box {
+    background: #fff3e0;
+    border-left: 4px solid #ff9800;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+}
+
+.success-box {
+    background: #e8f5e9;
+    border-left: 4px solid #4caf50;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+}
+
+/* Sidebar styling */
+.css-1d391kg, .css-163ttbj, .css-1y4p8pa {
+    background: linear-gradient(180deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.sidebar-content {
+    padding: 1rem;
+}
+
+/* Image container styling */
+.image-container {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+}
+
+.image-container:hover {
+    transform: scale(1.02);
+}
+
+/* Grid layout for metrics */
+.metrics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+/* Footer styling */
+.footer {
+    text-align: center;
+    padding: 2rem;
+    color: #666;
+    font-size: 0.85rem;
+    border-top: 1px solid #ddd;
+    margin-top: 2rem;
+}
+
+/* Loading spinner */
+.stSpinner > div {
+    border-color: #2E8B57;
+}
+
+/* Progress bar */
+.stProgress > div > div {
+    background-color: #2E8B57;
+}
+
+/* Code block styling */
+code {
+    background: #f4f4f4;
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    color: #2E8B57;
+    font-family: 'Courier New', monospace;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .metric-value {
+        font-size: 1.5rem;
+    }
+    
+    h1 {
+        font-size: 1.8rem;
+    }
+    
+    .stTabs [data-baseweb="tab"] {
+        padding: 0.3rem 0.8rem;
+        font-size: 0.9rem;
+    }
+}
+
+/* Hero banner for home page */
+.hero-banner {
+    background: linear-gradient(135deg, #2E8B57 0%, #1a5535 100%);
+    padding: 2rem;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.hero-banner h1 {
+    color: white;
+    border-bottom: none;
+    margin-bottom: 0.5rem;
+}
+
+.hero-banner p {
+    color: rgba(255,255,255,0.9);
+    font-size: 1.1rem;
+}
+
+/* Expandable section */
+.streamlit-expanderHeader {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.streamlit-expanderHeader:hover {
+    background-color: #e8f3ef;
+}
+
+/* Slider styling */
+.stSlider > div > div > div {
+    background-color: #2E8B57;
+}
+
+/* Selectbox styling */
+.stSelectbox > div > div {
+    border-color: #2E8B57;
+}
+
+/* Text input styling */
+.stTextInput > div > div > input {
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+}
+
+.stTextInput > div > div > input:focus {
+    border-color: #2E8B57;
+    box-shadow: 0 0 0 2px rgba(46,139,87,0.1);
+}
+
+/* Chat message styling for Assistant page */
+.chat-message-user {
+    background: linear-gradient(135deg, #2E8B57 0%, #236B43 100%);
+    color: white;
+    padding: 0.8rem;
+    border-radius: 15px 15px 5px 15px;
+    margin: 0.5rem 0;
+    max-width: 70%;
+    margin-left: auto;
+}
+
+.chat-message-assistant {
+    background: #f0f0f0;
+    color: #333;
+    padding: 0.8rem;
+    border-radius: 15px 15px 15px 5px;
+    margin: 0.5rem 0;
+    max-width: 70%;
+}
+
+/* Comparison card styling */
+.comparison-card {
+    background: white;
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin: 1rem 0;
+    transition: all 0.3s ease;
+}
+
+.comparison-card:hover {
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+.comparison-badge {
+    background: #2E8B57;
+    color: white;
+    padding: 0.2rem 0.6rem;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
