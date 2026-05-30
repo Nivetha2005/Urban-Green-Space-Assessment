@@ -221,7 +221,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 ## 📧 Contact
 
 For questions or support, please contact:
-- Email:nivethatk03@gmail.com
+- Email : nivethatk03@gmail.com
 
 ## 🙏 Acknowledgments
 
