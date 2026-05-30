@@ -26,7 +26,7 @@ This application uses a trained UNet segmentation model (31M parameters, 30 epoc
 
 1. **Clone or download the repository**
 ```bash
-git clone https://github.com/Srilakshmi2717/urban-green-space-assessment.git
+git clone https://github.com/Nivetha2005/Green-Urban-Assessment.git
 cd urban-green-space-assessment
 ```
 
@@ -216,12 +216,12 @@ Methodology: Bowler et al. (2010) Urban cooling coefficients.
 
 ## 📄 License
 
-This project is for academic and research purposes.
+This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## 📧 Contact
 
 For questions or support, please contact:
-- Email:srilaksh04@gmail.com
+- Email:nivethatk03@gmail.com
 
 ## 🙏 Acknowledgments
 
